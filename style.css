@@ -94,6 +94,17 @@ form {
   padding: 10px;
 }
 
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 form label {
   font-weight: bold;
 }
@@ -127,6 +138,16 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width:600){
-  
+@media all and (min-width:600px){
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+  .center {
+    align-self: center;
+  }
 }
