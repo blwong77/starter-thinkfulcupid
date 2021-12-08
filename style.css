@@ -70,16 +70,22 @@ header {
 header nav ul{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 header nav ul li {
   list-style-type: none;
+  padding: 0 20px 0 0;
+
+}
+
+header nav ul li:last-child {
+  padding-right: 0px;
 }
 
 header nav ul li a {
   color: #ecdbc9;
   text-decoration: none;
-  padding: 0 20px 0 0;
   flex-direction: row;
 }
 
