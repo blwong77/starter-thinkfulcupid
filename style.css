@@ -71,6 +71,7 @@ header nav ul{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding-left: 0;
 }
 
 header nav ul li {
